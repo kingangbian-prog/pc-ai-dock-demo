@@ -1,0 +1,10 @@
+{
+  "name": "pc-ai-dock-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.mjs && node --check model.mjs && node --check live-card.mjs && node --check dock-flip.mjs && node --check surfaces.mjs && node --check icons.mjs && node --check server.mjs"
+  }
+}
